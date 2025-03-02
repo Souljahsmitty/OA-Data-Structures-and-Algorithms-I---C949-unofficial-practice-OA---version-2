@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 26 - WGU Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-question="26">
+		<div class="container">
+			<h1>Question 26: Items were added sequentially in this stack starting with 'ham':</h1>
+        <pre>
+'sausage'
+'toast'
+'eggs'
+'ham'
+        </pre>
+        <p>What is the correct order of contents after the push operation is performed with the value 'bacon'?</p>
+        <div id="timer">Time Left: <span id="countdown">120:00</span></div>
+        <form id="quizForm">
+            <label><input type="radio" name="answer" value="A"> A) 'bacon''sausage''toast''eggs''ham'</label><br>
+            <label><input type="radio" name="answer" value="B"> B) 'sausage''bacon''toast''eggs''ham'</label><br>
+            <label><input type="radio" name="answer" value="C"> C) 'sausage''toast''eggs''bacon''ham'</label><br>
+            <label><input type="radio" name="answer" value="D"> D) 'sausage''toast''eggs''ham''bacon'</label><br>
+            <button type="button" id="submitAnswer">Submit</button>
+			</form>
+			<p id="feedback"></p>
+			<!--<button id="resetQuiz">Reset</button>-->
+			<button id="resetQuiz">Reset</button>
+			<button id="backQuestion">Back</button>
+			<button id="nextQuestion">Next</button>
+		</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
