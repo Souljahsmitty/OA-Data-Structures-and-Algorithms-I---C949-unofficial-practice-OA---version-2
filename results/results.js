@@ -50,169 +50,171 @@ document.addEventListener("DOMContentLoaded", function () {
         explanation: "Simplicity ensures that an algorithm is easy to understand, maintain, and implement." 
     },
     "8": { 
-        question: "8. Which category of data does ("FB", 75.00, 75.03, 74.90) represent in the pseudocode?	import datetime def middle(stock, date): symbol, current, high, low = stock	return (((high + low) / 2), date)	mid_value, date = middle(("FB", 75.00, 75.03, 74.90), datetime.date(2014, 10, 31))", 
+        question: "8. Which category of data does ('FB', 75.00, 75.03, 74.90) represent in the pseudocode?	import datetime def middle(stock, date): symbol, current, high, low = stock	return (((high + low) / 2), date)	mid_value, date = middle(('FB', 75.00, 75.03, 74.90), datetime.date(2014, 10, 31))", 
         correct: "B", 
         explanation: "A priori analysis evaluates an algorithm's efficiency before execution, without empirical testing." 
     },
     "9": { 
-        question: "9. Which review of an algorithm happens after implementation?", 
+        question: "9. Which value is appropriate for Test1 given the expression?", 
         correct: "A", 
-        explanation: "A posteriori analysis evaluates an algorithm's performance based on actual execution results." 
+        explanation: "The variable Test1 is declared as a char, so it must store a single character enclosed in single quotes, like 'L'." 
     },
     "10": { 
-        question: "10. Which review of an algorithm happens after implementation?", 
-        correct: "C", 
-        explanation: "A posteriori analysis measures an algorithm's performance after it has been executed." 
+        question: "10. Which value is appropriate for the variable middle given the pseudocode? function mystery(){string last;	string first;char middle;int phone;float rate;} ", 
+        correct: "A", 
+        explanation: "The variable 'middle' is declared as a char, meaning it must store a single character enclosed in single quotes, like 'D'." 
     },
 	 "11": { 
-        question: "11. Which factor helps measure the reusability of an algorithm?", 
+        question: "11. Which type of operation is represented in the pseudocode?", 
         correct: "B", 
-        explanation: "Extensibility determines how easily an algorithm can be modified and reused." 
+        explanation: "The expression x = y = z = 100 assigns the value 100 to all three variables using the assignment operator '='." 
     },
     "12": { 
-        question: "12. Which algorithm requires data sorting as a first step?", 
-        correct: "C", 
-        explanation: "Binary search requires the dataset to be sorted before performing the search operation." 
+        question: "12. What is the most efficient data type to use for this data set of a fixed size in Java?int[] a = {0, 0, 1, 4, 7, 16, 31, 64, 127};", 
+        correct: "A", 
+        explanation: "Arrays are the most efficient data type for storing a fixed-size sequence of values in Java." 
     },
     "13": { 
-        question: "13. What does a time complexity analysis of an algorithm include?", 
-        correct: "D", 
-        explanation: "Worst-case analysis measures the maximum number of operations an algorithm performs." 
+        question: "13. Which data type is appropriate for this array to store the given data?a = ['AF', '711', 'BC', '157', 'BA', '253']", 
+        correct: "A", 
+        explanation: "The elements in the array contain alphanumeric values, which are best stored as Strings in most programming languages." 
     },
     "14": { 
-        question: "14. Which data type do heap sorts work with?", 
-        correct: "A", 
-        explanation: "Heap sort works with a tree-based data structure that follows the heap property." 
+        question: "14. Which data type is appropriate for the given data set? a = [1, 717, 23, 12, 314, 6]", 
+        correct: "B", 
+        explanation: "The dataset consists of whole numbers, making the Integer (Int) data type the most suitable choice." 
     },
     "15": { 
-        question: "15. Which function is used in conjunction with a merge sort algorithm?", 
-        correct: "D", 
-        explanation: "Merge Sort uses recursion to divide and conquer subarrays before merging them." 
+        question: "15. Which data type should be used for this object? days = { 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' }", 
+        correct: "C", 
+        explanation: "Each element in the set represents a sequence of characters, making String the appropriate data type." 
     },
     "16": { 
-        question: "16. Which attribute of a recursive function makes it unique?", 
-        correct: "A", 
-        explanation: "A recursive function is unique because it calls itself within its definition." 
+        question: "16. Which data type should be used for this variable? phoneNum = '212-555-1212'", 
+        correct: "C", 
+        explanation: "The phone number contains digits, hyphens, and is formatted as text, making String the appropriate data type." 
     },
     "17": { 
-        question: "17. What is x in the following block of logic?\n x = 28 \n If x >= 10 and x < 20\n x = 20 \n elif x <= 30 \n x = 25 \n elif x >= 50\n x = 100 \n else x = 500", 
+        question: "17. What is true about garbage collection?", 
         correct: "B", 
-        explanation: "Since x=28 falls within the elif x <= 30 condition, x is assigned the value 25." 
+        explanation: "Garbage collection reclaims memory from dynamically allocated data structures, such as linked lists, when they are no longer needed." 
     },
     "18": { 
-        question: "18. What is an if statement inside of an if statement referred to as?", 
+        question: "18. What is true about a data structure implemented using linked allocation?", 
         correct: "A", 
-        explanation: "An if statement inside another if statement is called a nested if statement." 
+        explanation: "Linked allocation dynamically assigns memory using pointers, allowing flexibility in storage allocation." 
     },
     "19": { 
-        question: "19. Which search algorithm functions by continually dividing the dataset in half until the sought item is found or the dataset is exhausted?", 
+        question: "19. What are the array elements corresponding to the mid-values in the first and second iterations of a binary search in an array?arr = {45, 77, 89, 90, 94, 99, 100}	key = 100", 
         correct: "B", 
-        explanation: "Binary search repeatedly divides the dataset in half, making it efficient for sorted data." 
+        explanation: " In the first iteration, the mid-value is 90. Since 100 is greater than 90, we search in the right half, where the new mid-value is 99." 
     },
     "20": { 
-        question: "20. Which search algorithm has the best performance when the dataset is sorted?", 
-        correct: "C", 
-        explanation: "Interval search methods like binary search perform best when the dataset is sorted." 
+        question: "20. What is the effect on the object Computing regarding garbage collection?Computing obj = new Computing(); obj = null;", 
+        correct: "A", 
+        explanation: "When an object reference is set to null, it becomes unreachable and is eligible for garbage collection automatically." 
     },
 	"21": { 
-        question: "21. Which term describes a way of organizing, storing, and performing operations on data?", 
+        question: "21. What are the mid-values in the first and second levels of recursion in this binary search?int arr = {46, 76, 89, 90, 94, 99, 100};key = 99;", 
         correct: "A", 
-        explanation: "A data structure organizes and stores data, enabling efficient operations." 
+        explanation: "Since 99 is greater than 90, the search moves to the right half, where the next mid-value is 99." 
     },
     "22": { 
-        question: "22. Which data structure is used to implement a dictionary data type?", 
-        correct: "B", 
-        explanation: "A hash table is used to implement dictionaries, providing efficient key-value lookups." 
+        question: "22. Which data set is represented using the dictionary data type?", 
+        correct: "C", 
+        explanation: "A dictionary stores key-value pairs, such as student names (keys) and their test scores (values)." 
     },
     "23": { 
-        question: "23. Which element refers to the numeric positions in a list abstract data type (ADT)?", 
-        correct: "D", 
-        explanation: "Indexes refer to the numeric positions of elements in a list ADT." 
+        question: "23. What is a characteristic of keys in an associative dictionary data type?", 
+        correct: "C", 
+        explanation: "In an associative dictionary, keys must be unique and immutable to ensure proper data retrieval." 
     },
     "24": { 
-        question: "24. Which characteristic of a class allows it to be used as an abstract data type (ADT)?", 
-        correct: "C", 
-        explanation: "A class is an ADT because it consists of variables and methods that define behavior." 
+        question: "24. Which Python function can be used to take a value out of a dictionary?", 
+        correct: "B", 
+        explanation: "The pop() function removes the specified key from the dictionary and returns its value." 
     },
     "25": { 
-        question: "25. What is the result when 6 is enqueued to the queue 7,9,8 (with 7 as the front)?", 
-        correct: "B", 
-        explanation: "Enqueuing 6 adds it to the back of the queue, making the order 7,9,8,6." 
+        question: "25. Given this data dictionary in Python:dict = {'white': 0x0000, 'black': 0x1111}", 
+        correct: "A", 
+        explanation: "The dict.keys() method returns a view object that displays a list of all the dictionary’s keys." 
     },
     "26": { 
-        question: "26. Which value would be returned from executing the dequeue operation on the queue 7,9,8 (with 7 as the front)?", 
-        correct: "B", 
-        explanation: "Dequeue removes the front element (7), leaving 9,8." 
+        question: "26. Items were added sequentially in this stack starting with 'ham':'sausage''toast''eggs''ham'", 
+        correct: "A", 
+        explanation: "In a stack, the last item pushed ('bacon') is placed on top, resulting in the order 'bacon''sausage''toast''eggs''ham'." 
     },
     "27": { 
-        question: "27. Which queue results from executing the following queue operations on the queue 7,9,8 (with 7 as the front)? Dequeue() Enqueue(6) Enqueue(5) Dequeue()", 
-        correct: "C", 
-        explanation: "After operations, 8 remains at the front, followed by 6 and 5." 
-    },
-    "28": { 
-        question: "28. What will be the new state of the queue 7,9,8 (with 7 as the front) after the enqueue (3) operation?", 
+        question: "27. Items were added sequentially in this stack starting with 'dog': 'bird''rabbit''cat''dog'", 
         correct: "A", 
-        explanation: "Enqueuing 3 adds it to the back, making the order 7,9,8,3." 
+        explanation: "In a stack, the last item added ('bird') is the first one to be removed using the pop operation (LIFO principle)." 
     },
+    "28": {   
+		question: "28. Which sequence of letters represents preorder traversal of the nodes of this tree?",
+        correct: "A",
+        explanation: `Preorder traversal visits the root first, then recursively visits the left subtree, followed by the right subtree.
+        <br>
+        <img src="../Question28/image/28.png" alt="Descriptive Alt Text" class="question-image">`
+	},
     "29": { 
-        question: "29. Which format is used to store data in a hash table?", 
-        correct: "B", 
-        explanation: "A hash table stores data in an array using key-value pairs for efficient lookup." 
+        question: "29. An array soc of size 1009 is used where the index is an integer in [0,1008] and the hash function is key % 1009. Where will the data associated with the key given by the last 4 social security digits ‘2023’ be stored?", 
+        correct: "D", 
+        explanation: "Since the hash function is key % 1009, computing 2023 % 1009 results in 5. Thus, the data is stored in soc[5]." 
     },
     "30": { 
-        question: "30. Which term refers to a data structure that groups related items of data together?", 
+        question: "30. A stack s, a queue q, and a max value priority queue p each have a single 3 in them. Next, s.push(4), q.push(4), and p.push(4) are executed. What is the triple (s.pop(), q.pop(), p.pop())?", 
         correct: "C", 
-        explanation: "A record groups related items together as a structured data type." 
+        explanation: "The stack follows LIFO (Last-In-First-Out), the queue follows FIFO (First-In-First-Out), and the priority queue removes the highest value first." 
     },
     "31": { 
-        question: "31. Which data structure is used to store unordered items by mapping each item to a location in an array?", 
-        correct: "D", 
-        explanation: "A hash table maps each item to a location in an array using a hash function." 
+        question: "31. This stack reads left to right with the top to the right: 'green''yellow''blue''red' What could be the stack after a push operation?", 
+        correct: "C", 
+        explanation: "In a stack, the push operation adds an element to the top, so 'purple' is added to the right end of the stack." 
     },
     "32": { 
-        question: "32. What is the advantage that a linked list has over an array?", 
+        question: "32. Items were added sequentially onto the stack starting with 'red': 'green''yellow''blue''red' What is the stack after a pop operation?", 
         correct: "A", 
-        explanation: "A linked list grows and shrinks dynamically, while an array has a fixed size." 
+        explanation: "In a stack, the pop operation removes the last item added, which in this case is 'green'. The remaining stack is 'yellow''blue''red'." 
     },
     "33": { 
-        question: "33. What would be the best data structure for a hash table with simple chaining?", 
+        question: "33. Which command helps to speed up comparisons using dictionary keys during a dictionary (d) lookup in this pseudocode clip? h = hash(key) for pair in d: if h == pair[0]: return pair[1] 0(1) pair[0] pair[1] hash(object) h = hash(key)for pair in d:    if h == pair[0]:        return pair[1]", 
         correct: "B", 
-        explanation: "A linked list is used in hash tables to handle collisions using chaining." 
+        explanation: "The `hash(object)` function speeds up dictionary key comparisons by computing a unique hash value for each key, enabling efficient lookups." 
     },
     "34": { 
-        question: "34. How many objects are shown in the image?", 
-        correct: "B", 
-        explanation: "The image contains three distinct objects, based on the provided visual." 
+        question: "34. What does the method any(b) return in Python if b is a dictionary?", 
+        correct: "A", 
+        explanation: "unction checks the truthiness of the dictionary’s keys, not values. If any key evaluates to True, it returns True." 
     },
     "35": { 
-        question: "35. What is the root node for this tree?", 
+        question: "35. Which Java method is used to read bytes from a standard file?", 
         correct: "A", 
-        explanation: "The root node is the topmost node in a tree structure, which is Anne (1)." 
+        explanation: "The `Java.io.FileInputStream` class is used to read bytes from a file in Java." 
     },
     "36": { 
-        question: "36. What is the height of this tree?", 
-        correct: "C", 
-        explanation: "The height of a tree is the longest path from the root node to a leaf, which is three." 
+        question: "36. Which command will retrieve an item from the top of the stack?", 
+        correct: "D", 
+        explanation: "The `pop()` method removes and returns the top item of a stack, following the Last-In-First-Out (LIFO) principle." 
     },
     "37": { 
-        question: "37. Which data structure is the most dynamic in storing data items of varying lengths?", 
-        correct: "B", 
-        explanation: "A list in Python allows dynamic resizing and can store elements of varying sizes." 
+        question: "37. Which command will insert object x at position index in a list?", 
+        correct: "A", 
+        explanation: "The `Add(int index, Object x)` method inserts an object at the specified index in a list." 
     },
     "38": { 
-        question: "38. What is the resulting stack when the push(1) function is implemented on this stack yield? 8,9,3,5 (top is 8)", 
+        question: "38. Which command will return true if x is in a list, otherwise return false?", 
         correct: "A", 
-        explanation: "Pushing 1 onto the stack places it on top, resulting in 8,9,3,5,1." 
+        explanation: "The `Contains(Object x)` method checks if an element is present in a list and returns true if found, otherwise false." 
     },
     "39": { 
-        question: "39. What will the peek() operation from this stack return? 8,9,3,5 (top is 8)", 
+        question: "39. When should a dictionary be used instead of a list?", 
         correct: "C", 
-        explanation: "Peek() returns the top element without removing it, which is 8." 
+        explanation: "Dictionaries are best used when data is stored as key-value pairs, allowing for quick lookups and retrieval." 
     },
     "40": { 
-        question: "40. What is the set that results from set1 intersection set2, given these sets? set1 = (69,82,47) set2 = (11,82)", 
+        question: "40. The reference of the head of the doubly linked list is passed to the reverse() method:", 
         correct: "A", 
-        explanation: "The intersection of two sets includes only common elements, which is (82)." 
+        explanation: "Reversing a doubly linked list swaps the direction of links, resulting in 6<-->5<-->4<-->3<-->2<-->1." 
     },
 	"41": { 
         question: "41. What is the time complexity of appending an item to an array when resizing is required?", 
